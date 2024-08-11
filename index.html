@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmporifyX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EmporifyX</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <h2><span>Welcome to EmporifyX</span></h2>
+            <p>Your one-stop shop for everything you need!</p>
+            <button class="shop-now">Shop Now</button>
+        </section>
+
+        <!-- Shop Section -->
+        <class="shop" id="shop"><br> </br>
+            
+        <h2 style="font-size: 30px; color: #333; font-family: Arial, sans-serif; text-align: center; margin-bottom: 10px;">
+            Our Products
+        </h2><br> </br>
+        <p style="font-size: 25px; color: #555; font-family: Arial, sans-serif; text-align: center; margin-bottom: 20px;">
+            Explore our wide range of products, tailored to meet all your needs.
+        </p>
+        
+            <div class="product-grid">
+                <div class="product">
+                    <img src="1.img.png" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                </div>
+                <div class="product">
+                    <img src="2.img.png" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$29.99</p>
+                </div>
+                <div class="product">
+                    <img src="3.img.png" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+        <br> </br>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2>About EmporifyX</h2><br> </br>
+            <p>EmporifyX is your trusted e-commerce platform, providing a seamless shopping experience for both merchants and customers.<br> We are dedicated to delivering high-quality products and exceptional customer service.</p>
+            <p>Our mission is to empower merchants by giving them a platform to showcase their products and provide customers with a convenient and secure shopping environment.</p>
+            <br> </br>
+            <br> </br>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <br> </br>      
+            <p>We'd love to hear from you! Reach out to us with any questions or feedback.</p><br> </br>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <!-- New Contact List Section -->
+                <label for="contact-method">Preferred Contact Method:</label>
+                <select id="contact-method" name="contact-method">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="sms">SMS</option>
+                </select>
+                <br> </br>
+                <label for="contact-time">Preferred Contact Time:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="contact-time" value="morning"> Morning</label>
+                    <label><input type="checkbox" name="contact-time" value="afternoon"> Afternoon</label>
+                    <label><input type="checkbox" name="contact-time" value="evening"> Evening</label>
+                </div>
+                <br></br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EmporifyX. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
